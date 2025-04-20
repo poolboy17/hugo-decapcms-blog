@@ -1,0 +1,36 @@
+# Hugo default output directory
+/public/
+/resources/_gen/
+
+# Hugo local resources
+.hugo_build.lock
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Generated files by hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+/node_modules
+/jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Replit specific
+.replit
+replit.nix
+.config/
