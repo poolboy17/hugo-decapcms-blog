@@ -1,0 +1,5 @@
+<div class="cta-box">
+  <h3>{{ .Get "title" }}</h3>
+  <p>{{ .Get "description" }}</p>
+  <a href="{{ .Get "url" }}" class="cta-button">{{ .Get "button" | default "Learn More" }}</a>
+</div>
