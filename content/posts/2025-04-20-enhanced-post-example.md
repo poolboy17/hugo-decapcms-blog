@@ -2,7 +2,8 @@
 title: "Enhanced Post Example With New Features"
 date: 2025-04-20T09:15:00Z
 draft: false
-cover: "/images/uploads/sample-feature-image.jpg"
+cover:
+  image: "/images/uploads/sample-feature-image.jpg"
 focus_keyword: "Hugo CMS Enhanced Features"
 tags: ["hugo", "cms", "tutorial"]
 categories: ["Web Development"]

@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:5000/categories/</loc>
+    <lastmod>2025-04-20T09:15:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5000/tags/cms/</loc>
+    <lastmod>2025-04-20T09:15:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5000/posts/2025-04-20-enhanced-post-example/</loc>
+    <lastmod>2025-04-20T09:15:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5000/tags/hugo/</loc>
+    <lastmod>2025-04-20T09:15:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:5000/posts/</loc>
     <lastmod>2025-04-20T09:15:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5000/categories/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:5000/tags/</loc>
+    <lastmod>2025-04-20T09:15:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5000/tags/tutorial/</loc>
+    <lastmod>2025-04-20T09:15:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:5000/categories/web-development/</loc>
+    <lastmod>2025-04-20T09:15:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:5000/tags/decap/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
@@ -17,16 +35,10 @@
     <loc>http://localhost:5000/categories/getting-started/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:5000/tags/hugo/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:5000/legal/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:5000/legal/privacy/</loc>
-    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:5000/tags/</loc>
     <lastmod>2025-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:5000/legal/terms/</loc>

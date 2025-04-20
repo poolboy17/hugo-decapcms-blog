@@ -6,7 +6,36 @@
     <description>Recent content in Hugo on Hugo Decap CMS Starter</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:5000/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Apr 2025 09:15:00 +0000</lastBuildDate><atom:link href="http://localhost:5000/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhanced Post Example With New Features</title>
+      <link>http://localhost:5000/posts/2025-04-20-enhanced-post-example/</link>
+      <pubDate>Sun, 20 Apr 2025 09:15:00 +0000</pubDate>
+      
+      <guid>http://localhost:5000/posts/2025-04-20-enhanced-post-example/</guid>
+      <description>This is an example post demonstrating the enhanced features added to our Hugo Decap CMS blog.</description>
+      <content:encoded><![CDATA[<h1 id="welcome-to-our-enhanced-hugo-blog">Welcome to Our Enhanced Hugo Blog</h1>
+<p>This post demonstrates the new features we&rsquo;ve added to the Hugo Decap CMS blog integration.</p>
+<h2 id="new-shortcodes">New Shortcodes</h2>
+<p>Below is an example of the CTA shortcode:</p>
+<div class="cta-box">
+  <h3>Get Started with Hugo</h3>
+  <p>Build lightning-fast websites with Hugo and Decap CMS</p>
+  <a href="/get-started/" class="cta-button">Start Now</a>
+</div>
+<h2 id="enhanced-content-structure">Enhanced Content Structure</h2>
+<p>The post now includes:</p>
+<ol>
+<li><strong>Focus keyword</strong> for SEO optimization</li>
+<li><strong>Affiliate disclaimer</strong> automatically shown at the top</li>
+<li><strong>Schema type</strong> for better search engine results</li>
+<li><strong>Related posts</strong> shown at the bottom</li>
+</ol>
+<h2 id="conclusion">Conclusion</h2>
+<p>These enhancements make our blog more powerful while keeping it simple to use through the Decap CMS interface.</p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Welcome to the Blog</title>
       <link>http://localhost:5000/posts/example-post/</link>
