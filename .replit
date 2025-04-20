@@ -1,0 +1,52 @@
+modules = ["go"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Hugo Server"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "hugo_blog_server"
+
+[[workflows.workflow]]
+name = "Hugo Server"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "apt-get update && apt-get install -y hugo && hugo server -D --bind=0.0.0.0 -p 5000"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "hugo_blog_server"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "mkdir -p themes/PaperModX && git clone https://github.com/reorx/hugo-PaperModX.git themes/PaperModX && hugo server -D"
+
+[deployment]
+run = ["sh", "-c", "apt-get update && apt-get install -y hugo && hugo server -D --bind=0.0.0.0 -p 5000"]

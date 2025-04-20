@@ -1,0 +1,67 @@
+baseURL = "https://yourblog.onrender.com"
+languageCode = "en-us"
+title = "My Hugo Blog with Decap CMS"
+theme = "PaperModX"
+publishDir = "public"
+
+# Enable tags and categories
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 30
+  [[menu.main]]
+    identifier = "legal"
+    name = "Legal"
+    url = "/legal"
+    weight = 40
+
+# Theme parameters
+[params]
+  description = "A Hugo blog with Decap CMS integration"
+  author = "Your Name"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  
+  # SEO configurations
+  [params.seo]
+    description = "A Hugo blog with Decap CMS integration"
+    ogImageWidth = 1200
+    ogImageHeight = 600
+    
+  # Social links
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/yourusername"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/yourusername"
+
+  # Analytics configuration (if needed)
+  [params.analytics]
+    google = 
+      SiteVerificationTag = ""

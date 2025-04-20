@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: hugo-decapcms-blog
+    env: static
+    buildCommand: hugo --gc --minify
+    staticPublishPath: ./public
+    pullRequestPreviewsEnabled: true
+    envVars:
+      - key: HUGO_VERSION
+        value: 0.111.3
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=3600
+    routes:
+      - type: rewrite
+        source: /admin/*
+        destination: /admin/index.html
+
+previewsEnabled: true
