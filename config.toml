@@ -1,6 +1,7 @@
+
 baseURL = "https://yourblog.onrender.com"
 languageCode = "en-us"
-title = "My Hugo Blog with Decap CMS"
+title = "Hugo Decap CMS Starter"
 theme = "PaperModX"
 publishDir = "public"
 
@@ -9,39 +10,14 @@ publishDir = "public"
   tag = "tags"
   category = "categories"
 
-# Menu
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts"
-    weight = 20
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    weight = 30
-  [[menu.main]]
-    identifier = "legal"
-    name = "Legal"
-    url = "/legal"
-    weight = 40
-
-# Theme parameters
 [params]
-  description = "A Hugo blog with Decap CMS integration"
+  description = "A Hugo starter site with Decap CMS"
   author = "Your Name"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowRssButtonInSectionTermList = true
   ShowToc = true
   
   # SEO configurations
@@ -49,19 +25,35 @@ publishDir = "public"
     description = "A Hugo blog with Decap CMS integration"
     ogImageWidth = 1200
     ogImageHeight = 600
-    
-  # Social links
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/yourusername"
-  [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/yourusername"
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://linkedin.com/in/yourusername"
 
-  # Analytics configuration (if needed)
-  [params.analytics]
-    google = 
-      SiteVerificationTag = ""
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "legal"
+  name = "Legal"
+  url = "/legal/"
+  weight = 9
+
+[[menu.main]]
+  identifier = "privacy"
+  name = "Privacy Policy"
+  url = "/legal/privacy/"
+  weight = 10
+  parent = "legal"
+
+[[menu.main]]
+  identifier = "terms"
+  name = "Terms"
+  url = "/legal/terms/"
+  weight = 11
+  parent = "legal"

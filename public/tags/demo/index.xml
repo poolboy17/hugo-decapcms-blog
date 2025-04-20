@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Demo on Hugo Decap CMS Starter</title>
+    <link>http://localhost:5000/tags/demo/</link>
+    <description>Recent content in Demo on Hugo Decap CMS Starter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:5000/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the Blog</title>
+      <link>http://localhost:5000/posts/example-post/</link>
+      <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:5000/posts/example-post/</guid>
+      <description>This is a demo blog post with SEO and internal linking support.</description>
+      <content:encoded><![CDATA[<p>Welcome to your first blog post. Here&rsquo;s a sample internal link to <a href="/legal/privacy/">the legal page</a>.</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
