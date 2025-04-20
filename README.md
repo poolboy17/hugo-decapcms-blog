@@ -2,6 +2,8 @@
 
 A modern, fast, and SEO-optimized blog platform built with Hugo and Decap CMS (formerly Netlify CMS), featuring the elegant PaperModX theme.
 
+**[View current development status](PROJECT_STATUS.md)**
+
 ![Hugo](https://img.shields.io/badge/Hugo-FF4088?style=for-the-badge&logo=hugo&logoColor=white)
 ![Decap CMS](https://img.shields.io/badge/Decap_CMS-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
