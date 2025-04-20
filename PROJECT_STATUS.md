@@ -11,10 +11,14 @@ Last Updated: April 20, 2025
 | Core Blog Setup | ✅ Complete | Hugo site with PaperModX theme |
 | Decap CMS Integration | ✅ Complete | Admin interface configured |
 | Content Structure | ✅ Complete | Posts, pages, and legal sections |
-| SEO Optimization | ✅ Complete | Meta tags, structured data |
+| SEO Optimization | ✅ Complete | Meta tags, structured data, focus keywords |
 | Render.com Deployment | ✅ Complete | Configuration ready |
 | Git Repository | ✅ Complete | GitHub repository created |
 | Documentation | ✅ Complete | README and development status |
+| Enhanced CMS Fields | ✅ Complete | Added focus_keyword, schema type, and affiliate disclaimer |
+| Affiliate Disclosure | ✅ Complete | Conditional affiliate disclaimer box |
+| CTA Shortcodes | ✅ Complete | Call-to-action shortcode for posts |
+| Related Posts | ✅ Complete | Related posts section at end of articles |
 | Custom Themes | 🔄 In Progress | Base theme installed, customization ongoing |
 | Search Functionality | 🔄 In Progress | Basic search implemented |
 | Commenting System | 📝 Planned | Disqus integration planned |
@@ -57,6 +61,26 @@ Last Updated: April 20, 2025
 7. **Documentation**
    - Comprehensive README with setup instructions
    - Development status documentation
+
+8. **Enhanced CMS Fields**
+   - Focus keyword field for SEO optimization
+   - Schema type selection (Article, BlogPosting, etc.)
+   - Affiliate disclaimer toggle for transparent disclosure
+
+9. **Affiliate Disclosure**
+   - Conditional display based on front matter flag
+   - Clearly styled box for disclosure statements
+   - Compliant with FTC disclosure requirements
+
+10. **CTA Shortcodes**
+    - Call-to-action boxes with customizable content
+    - Styled buttons with configurable text and URLs
+    - Easy to use shortcode syntax in the content editor
+
+11. **Related Posts**
+    - Automatically displayed at the end of articles
+    - Relevant post suggestions based on tags/categories
+    - Enhanced navigation between related content
 
 ### In Progress Features
 
