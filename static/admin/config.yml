@@ -23,9 +23,12 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Featured Image", name: "cover", widget: "image", required: false}
+      - {label: "Focus Keyword", name: "focus_keyword", widget: "string", required: false, hint: "Main keyword for SEO optimization"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Description", name: "description", widget: "text", required: false}
+      - {label: "Show Affiliate Disclosure", name: "show_affiliate_disclaimer", widget: "boolean", default: false}
+      - {label: "Schema Type", name: "schema", widget: "select", options: ["Article", "BlogPosting", "NewsArticle", "Product", "Recipe"], default: "Article"}
       - {label: "Body", name: "body", widget: "markdown"}
   
   - name: "legal" # Used in routes, e.g., /admin/collections/legal

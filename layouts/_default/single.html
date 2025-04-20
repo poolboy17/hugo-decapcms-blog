@@ -2,11 +2,22 @@
 <html>
 <head>
     <title>{{ .Title }}</title>
+    {{ partial "seo/head.html" . }}
 </head>
 <body>
     <main>
         <h1>{{ .Title }}</h1>
+        
+        <!-- Show affiliate disclosure if enabled -->
+        {{ if .Params.show_affiliate_disclaimer }}
+            {{ partial "blocks/affiliate_disclosure.html" . }}
+        {{ end }}
+        
+        <!-- Main content -->
         {{ .Content }}
+        
+        <!-- Related posts section -->
+        {{ partial "blocks/related_posts.html" . }}
     </main>
 </body>
 </html>
